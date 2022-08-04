@@ -1,0 +1,151 @@
+body {
+    background-color: #121214;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+main {
+    width: 1900px;
+    height: 1000px;
+    align-items: center;
+
+
+}
+
+
+
+main h1 {
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 73px;
+
+
+}
+
+.container {
+    max-width: 700px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+}
+
+
+.perfil {
+
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+
+.perfil img {
+    border: solid transparent 1px;
+    transition: 0.5s;
+
+}
+
+
+.perfil:hover img {
+    border: solid #FFFFFF 1px;
+    transition: 0.5s;
+
+
+}
+
+
+.perfil p {
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 14px;
+    color: #9c9c9c;
+
+}
+
+
+.perfil img {
+
+
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+
+
+.perfil:hover p {
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 116px;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 44px;
+    margin-bottom: 88px;
+}
+
+.button a:hover {
+    background: #FFFFFF;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.fundo {
+    width: 160px;
+    height: 160px;
+    background-color: #1E1E20;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    border: solid transparent 1px;
+    transition: 0.5s;
+    background: url(./img/frame5.png)
+}
+
+.fundo:hover {
+    border: solid #FFFFFF 1px;
+    transition: 0.5s;
+    background: url(./img/frame55.png);
+}
+
+.fundo-img {
+    width: 65px;
+    height: 68px;
+
+
+}
+
+
+.fundo:hover {
+
+    border: solid #FFFFFF 1px;
+
+}
